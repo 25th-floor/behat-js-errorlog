@@ -1,0 +1,20 @@
+{
+  "name": "25th/behat-js-errorlog",
+  "authors": [
+    {
+      "name": "Thomas Subera",
+      "email": "ts@25th-floor.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+
+    "behat/behat": "3.*",
+    "behat/mink-extension": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwentyFifth\\Behat\\JsErrorLog\\": "src"
+    }
+  }
+}
